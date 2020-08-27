@@ -6,6 +6,9 @@ import { MdAlarm } from 'react-icons/md';
 import { FaAws } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {FaAccusoft} from "react-icons/fa";
+import {FaAngellist} from "react-icons/fa";
+
+
 function App() {
 	return (
 		<IconContext.Provider value={{ color: 'blue', size: '5rem' }}>
@@ -15,7 +18,7 @@ function App() {
 				<FaAws color='orange' size='5rem' />
         <BsFillPersonLinesFill color='blue' size='5rem'/>
         <FaAccusoft/>
-
+        <FaAngellist color='purple' size='5rem'/>
 			</div>
 		</IconContext.Provider>
 	);
